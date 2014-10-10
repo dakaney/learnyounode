@@ -1,7 +1,6 @@
 const http = require('http');
 
 var server = http.createServer(function(req, res) {
-    //if(req.method != "POST") resp.end('I respond to POST only');
 
     var body = '';
     req.setEncoding('utf8');

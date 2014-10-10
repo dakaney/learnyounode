@@ -7,7 +7,6 @@ if (err)
   return console.error('There was an error:', err)
 
 
-// QUESTION ON THIS PART OF THE CODE - see below in the module part of the program
 
 list.forEach(function (file) {
   console.log(file)
